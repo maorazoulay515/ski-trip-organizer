@@ -1,0 +1,314 @@
+[
+  {
+    "id": "val-thorens-france",
+    "name": "Val Thorens",
+    "region": "alps",
+    "country": "France",
+    "countryCode": "FR",
+    "latitude": 45.2983,
+    "longitude": 6.5800,
+    "altitudeM": 3200,
+    "skiableAreaKm2": 600,
+    "officialUrl": "https://www.valthorens.com",
+    "airports": [
+      { "iata": "LYS", "name": "Lyon Saint-Exupéry", "city": "Lyon", "distanceKm": 175, "driveTimeMinutes": 130, "primaryFor": true },
+      { "iata": "GVA", "name": "Geneva Airport", "city": "Geneva", "distanceKm": 185, "driveTimeMinutes": 140, "primaryFor": false },
+      { "iata": "TRN", "name": "Turin Airport", "city": "Turin", "distanceKm": 200, "driveTimeMinutes": 155, "primaryFor": false }
+    ],
+    "hotelSearchCenter": { "latitude": 45.2983, "longitude": 6.5800, "radiusKm": 5 },
+    "rome2rioOriginName": "Val Thorens, France"
+  },
+  {
+    "id": "verbier-switzerland",
+    "name": "Verbier",
+    "region": "alps",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "latitude": 46.0961,
+    "longitude": 7.2285,
+    "altitudeM": 3330,
+    "skiableAreaKm2": 412,
+    "airports": [
+      { "iata": "GVA", "name": "Geneva Airport", "city": "Geneva", "distanceKm": 160, "driveTimeMinutes": 95, "primaryFor": true },
+      { "iata": "ZRH", "name": "Zurich Airport", "city": "Zurich", "distanceKm": 270, "driveTimeMinutes": 175, "primaryFor": false },
+      { "iata": "SIR", "name": "Sion Airport", "city": "Sion", "distanceKm": 45, "driveTimeMinutes": 40, "primaryFor": false }
+    ],
+    "hotelSearchCenter": { "latitude": 46.0961, "longitude": 7.2285, "radiusKm": 8 },
+    "rome2rioOriginName": "Verbier, Switzerland"
+  },
+  {
+    "id": "zermatt-switzerland",
+    "name": "Zermatt",
+    "region": "alps",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "latitude": 46.0207,
+    "longitude": 7.7491,
+    "altitudeM": 3883,
+    "skiableAreaKm2": 360,
+    "airports": [
+      { "iata": "GVA", "name": "Geneva Airport", "city": "Geneva", "distanceKm": 245, "driveTimeMinutes": 170, "primaryFor": true },
+      { "iata": "ZRH", "name": "Zurich Airport", "city": "Zurich", "distanceKm": 225, "driveTimeMinutes": 155, "primaryFor": false }
+    ],
+    "hotelSearchCenter": { "latitude": 46.0207, "longitude": 7.7491, "radiusKm": 5 },
+    "rome2rioOriginName": "Zermatt, Switzerland"
+  },
+  {
+    "id": "chamonix-france",
+    "name": "Chamonix",
+    "region": "alps",
+    "country": "France",
+    "countryCode": "FR",
+    "latitude": 45.9237,
+    "longitude": 6.8694,
+    "altitudeM": 3842,
+    "skiableAreaKm2": 170,
+    "airports": [
+      { "iata": "GVA", "name": "Geneva Airport", "city": "Geneva", "distanceKm": 85, "driveTimeMinutes": 75, "primaryFor": true },
+      { "iata": "LYS", "name": "Lyon Saint-Exupéry", "city": "Lyon", "distanceKm": 230, "driveTimeMinutes": 170, "primaryFor": false }
+    ],
+    "hotelSearchCenter": { "latitude": 45.9237, "longitude": 6.8694, "radiusKm": 10 },
+    "rome2rioOriginName": "Chamonix, France"
+  },
+  {
+    "id": "cortina-dampezzo-italy",
+    "name": "Cortina d'Ampezzo",
+    "region": "alps",
+    "country": "Italy",
+    "countryCode": "IT",
+    "latitude": 46.5363,
+    "longitude": 12.1357,
+    "altitudeM": 2930,
+    "skiableAreaKm2": 115,
+    "airports": [
+      { "iata": "VCE", "name": "Venice Marco Polo", "city": "Venice", "distanceKm": 160, "driveTimeMinutes": 120, "primaryFor": true },
+      { "iata": "TRS", "name": "Trieste Airport", "city": "Trieste", "distanceKm": 175, "driveTimeMinutes": 130, "primaryFor": false },
+      { "iata": "INN", "name": "Innsbruck Airport", "city": "Innsbruck", "distanceKm": 130, "driveTimeMinutes": 100, "primaryFor": false }
+    ],
+    "hotelSearchCenter": { "latitude": 46.5363, "longitude": 12.1357, "radiusKm": 8 },
+    "rome2rioOriginName": "Cortina d'Ampezzo, Italy"
+  },
+  {
+    "id": "kitzbuhel-austria",
+    "name": "Kitzbühel",
+    "region": "alps",
+    "country": "Austria",
+    "countryCode": "AT",
+    "latitude": 47.4468,
+    "longitude": 12.3920,
+    "altitudeM": 2000,
+    "skiableAreaKm2": 170,
+    "airports": [
+      { "iata": "INN", "name": "Innsbruck Airport", "city": "Innsbruck", "distanceKm": 90, "driveTimeMinutes": 70, "primaryFor": true },
+      { "iata": "MUC", "name": "Munich Airport", "city": "Munich", "distanceKm": 110, "driveTimeMinutes": 90, "primaryFor": false },
+      { "iata": "SZG", "name": "Salzburg Airport", "city": "Salzburg", "distanceKm": 75, "driveTimeMinutes": 60, "primaryFor": false }
+    ],
+    "hotelSearchCenter": { "latitude": 47.4468, "longitude": 12.3920, "radiusKm": 8 },
+    "rome2rioOriginName": "Kitzbühel, Austria"
+  },
+  {
+    "id": "st-anton-austria",
+    "name": "St. Anton am Arlberg",
+    "region": "alps",
+    "country": "Austria",
+    "countryCode": "AT",
+    "latitude": 47.1293,
+    "longitude": 10.2683,
+    "altitudeM": 2811,
+    "skiableAreaKm2": 305,
+    "airports": [
+      { "iata": "INN", "name": "Innsbruck Airport", "city": "Innsbruck", "distanceKm": 100, "driveTimeMinutes": 80, "primaryFor": true },
+      { "iata": "ZRH", "name": "Zurich Airport", "city": "Zurich", "distanceKm": 200, "driveTimeMinutes": 150, "primaryFor": false }
+    ],
+    "hotelSearchCenter": { "latitude": 47.1293, "longitude": 10.2683, "radiusKm": 8 },
+    "rome2rioOriginName": "St. Anton am Arlberg, Austria"
+  },
+  {
+    "id": "courchevel-france",
+    "name": "Courchevel",
+    "region": "alps",
+    "country": "France",
+    "countryCode": "FR",
+    "latitude": 45.4166,
+    "longitude": 6.6338,
+    "altitudeM": 2700,
+    "skiableAreaKm2": 600,
+    "airports": [
+      { "iata": "LYS", "name": "Lyon Saint-Exupéry", "city": "Lyon", "distanceKm": 185, "driveTimeMinutes": 135, "primaryFor": true },
+      { "iata": "GVA", "name": "Geneva Airport", "city": "Geneva", "distanceKm": 200, "driveTimeMinutes": 150, "primaryFor": false },
+      { "iata": "GNB", "name": "Grenoble Airport", "city": "Grenoble", "distanceKm": 130, "driveTimeMinutes": 100, "primaryFor": false }
+    ],
+    "hotelSearchCenter": { "latitude": 45.4166, "longitude": 6.6338, "radiusKm": 5 },
+    "rome2rioOriginName": "Courchevel, France"
+  },
+  {
+    "id": "whistler-canada",
+    "name": "Whistler Blackcomb",
+    "region": "north_america",
+    "country": "Canada",
+    "countryCode": "CA",
+    "state": "British Columbia",
+    "latitude": 50.1163,
+    "longitude": -122.9574,
+    "altitudeM": 2182,
+    "skiableAreaKm2": 330,
+    "airports": [
+      { "iata": "YVR", "name": "Vancouver International", "city": "Vancouver", "distanceKm": 125, "driveTimeMinutes": 105, "primaryFor": true }
+    ],
+    "hotelSearchCenter": { "latitude": 50.1163, "longitude": -122.9574, "radiusKm": 5 },
+    "rome2rioOriginName": "Whistler, British Columbia"
+  },
+  {
+    "id": "aspen-usa",
+    "name": "Aspen Snowmass",
+    "region": "north_america",
+    "country": "USA",
+    "countryCode": "US",
+    "state": "Colorado",
+    "latitude": 39.1911,
+    "longitude": -106.8175,
+    "altitudeM": 3418,
+    "skiableAreaKm2": 310,
+    "airports": [
+      { "iata": "ASE", "name": "Aspen/Pitkin County Airport", "city": "Aspen", "distanceKm": 8, "driveTimeMinutes": 10, "primaryFor": true },
+      { "iata": "DEN", "name": "Denver International", "city": "Denver", "distanceKm": 350, "driveTimeMinutes": 220, "primaryFor": false },
+      { "iata": "EGE", "name": "Eagle County Airport", "city": "Eagle", "distanceKm": 110, "driveTimeMinutes": 70, "primaryFor": false }
+    ],
+    "hotelSearchCenter": { "latitude": 39.1911, "longitude": -106.8175, "radiusKm": 10 },
+    "rome2rioOriginName": "Aspen, Colorado"
+  },
+  {
+    "id": "vail-usa",
+    "name": "Vail",
+    "region": "north_america",
+    "country": "USA",
+    "countryCode": "US",
+    "state": "Colorado",
+    "latitude": 39.6433,
+    "longitude": -106.3781,
+    "altitudeM": 3527,
+    "skiableAreaKm2": 214,
+    "airports": [
+      { "iata": "EGE", "name": "Eagle County Airport", "city": "Eagle", "distanceKm": 55, "driveTimeMinutes": 35, "primaryFor": true },
+      { "iata": "DEN", "name": "Denver International", "city": "Denver", "distanceKm": 175, "driveTimeMinutes": 110, "primaryFor": false }
+    ],
+    "hotelSearchCenter": { "latitude": 39.6433, "longitude": -106.3781, "radiusKm": 8 },
+    "rome2rioOriginName": "Vail, Colorado"
+  },
+  {
+    "id": "park-city-usa",
+    "name": "Park City Mountain",
+    "region": "north_america",
+    "country": "USA",
+    "countryCode": "US",
+    "state": "Utah",
+    "latitude": 40.6514,
+    "longitude": -111.5080,
+    "altitudeM": 3048,
+    "skiableAreaKm2": 330,
+    "airports": [
+      { "iata": "SLC", "name": "Salt Lake City International", "city": "Salt Lake City", "distanceKm": 55, "driveTimeMinutes": 40, "primaryFor": true }
+    ],
+    "hotelSearchCenter": { "latitude": 40.6514, "longitude": -111.5080, "radiusKm": 8 },
+    "rome2rioOriginName": "Park City, Utah"
+  },
+  {
+    "id": "niseko-japan",
+    "name": "Niseko United",
+    "region": "japan",
+    "country": "Japan",
+    "countryCode": "JP",
+    "latitude": 42.8048,
+    "longitude": 140.6874,
+    "altitudeM": 1308,
+    "skiableAreaKm2": 48,
+    "airports": [
+      { "iata": "CTS", "name": "New Chitose Airport", "city": "Sapporo", "distanceKm": 100, "driveTimeMinutes": 80, "primaryFor": true }
+    ],
+    "hotelSearchCenter": { "latitude": 42.8048, "longitude": 140.6874, "radiusKm": 5 },
+    "rome2rioOriginName": "Niseko, Hokkaido"
+  },
+  {
+    "id": "are-sweden",
+    "name": "Åre",
+    "region": "scandinavia",
+    "country": "Sweden",
+    "countryCode": "SE",
+    "latitude": 63.3993,
+    "longitude": 13.0819,
+    "altitudeM": 1420,
+    "skiableAreaKm2": 90,
+    "airports": [
+      { "iata": "OSD", "name": "Åre Östersund Airport", "city": "Östersund", "distanceKm": 95, "driveTimeMinutes": 70, "primaryFor": true },
+      { "iata": "TRD", "name": "Trondheim Airport", "city": "Trondheim", "distanceKm": 200, "driveTimeMinutes": 160, "primaryFor": false }
+    ],
+    "hotelSearchCenter": { "latitude": 63.3993, "longitude": 13.0819, "radiusKm": 8 },
+    "rome2rioOriginName": "Åre, Sweden"
+  },
+  {
+    "id": "trysil-norway",
+    "name": "Trysil",
+    "region": "scandinavia",
+    "country": "Norway",
+    "countryCode": "NO",
+    "latitude": 61.3350,
+    "longitude": 12.2690,
+    "altitudeM": 1132,
+    "skiableAreaKm2": 79,
+    "airports": [
+      { "iata": "OSL", "name": "Oslo Gardermoen", "city": "Oslo", "distanceKm": 210, "driveTimeMinutes": 160, "primaryFor": true }
+    ],
+    "hotelSearchCenter": { "latitude": 61.3350, "longitude": 12.2690, "radiusKm": 5 },
+    "rome2rioOriginName": "Trysil, Norway"
+  },
+  {
+    "id": "levi-finland",
+    "name": "Levi",
+    "region": "scandinavia",
+    "country": "Finland",
+    "countryCode": "FI",
+    "latitude": 67.8018,
+    "longitude": 24.8072,
+    "altitudeM": 531,
+    "skiableAreaKm2": 45,
+    "airports": [
+      { "iata": "KTT", "name": "Kittilä Airport", "city": "Kittilä", "distanceKm": 15, "driveTimeMinutes": 15, "primaryFor": true },
+      { "iata": "HEL", "name": "Helsinki Airport", "city": "Helsinki", "distanceKm": 1000, "driveTimeMinutes": 0, "primaryFor": false }
+    ],
+    "hotelSearchCenter": { "latitude": 67.8018, "longitude": 24.8072, "radiusKm": 5 },
+    "rome2rioOriginName": "Levi, Finland"
+  },
+  {
+    "id": "portillo-chile",
+    "name": "Portillo",
+    "region": "andes",
+    "country": "Chile",
+    "countryCode": "CL",
+    "latitude": -32.8406,
+    "longitude": -70.1339,
+    "altitudeM": 3350,
+    "skiableAreaKm2": 35,
+    "airports": [
+      { "iata": "SCL", "name": "Santiago International", "city": "Santiago", "distanceKm": 165, "driveTimeMinutes": 130, "primaryFor": true }
+    ],
+    "hotelSearchCenter": { "latitude": -32.8406, "longitude": -70.1339, "radiusKm": 5 },
+    "rome2rioOriginName": "Portillo, Chile"
+  },
+  {
+    "id": "andorra-grandvalira",
+    "name": "Grandvalira",
+    "region": "other",
+    "country": "Andorra",
+    "countryCode": "AD",
+    "latitude": 42.5413,
+    "longitude": 1.7395,
+    "altitudeM": 2640,
+    "skiableAreaKm2": 210,
+    "airports": [
+      { "iata": "BCN", "name": "Barcelona El Prat", "city": "Barcelona", "distanceKm": 200, "driveTimeMinutes": 160, "primaryFor": true },
+      { "iata": "TLS", "name": "Toulouse-Blagnac", "city": "Toulouse", "distanceKm": 170, "driveTimeMinutes": 140, "primaryFor": false }
+    ],
+    "hotelSearchCenter": { "latitude": 42.5413, "longitude": 1.7395, "radiusKm": 10 },
+    "rome2rioOriginName": "Grandvalira, Andorra"
+  }
+]
