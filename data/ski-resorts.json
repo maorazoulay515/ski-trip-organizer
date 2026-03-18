@@ -1478,5 +1478,55 @@
     ],
     "hotelSearchCenter": { "latitude": 56.8022, "longitude": -4.9721, "radiusKm": 5 },
     "rome2rioOriginName": "Fort William, United Kingdom"
+  },
+  {
+    "id": "gudauri-georgia",
+    "name": "Gudauri",
+    "region": "eastern_europe",
+    "country": "Georgia",
+    "countryCode": "GE",
+    "latitude": 42.4780,
+    "longitude": 44.4770,
+    "altitudeM": 3279,
+    "skiableAreaKm2": 57,
+    "airports": [
+      { "iata": "TBS", "name": "Tbilisi International", "city": "Tbilisi", "distanceKm": 120, "driveTimeMinutes": 120, "primaryFor": true }
+    ],
+    "hotelSearchCenter": { "latitude": 42.4780, "longitude": 44.4770, "radiusKm": 5 },
+    "rome2rioOriginName": "Gudauri, Georgia"
+  },
+  {
+    "id": "bakuriani-georgia",
+    "name": "Bakuriani",
+    "region": "eastern_europe",
+    "country": "Georgia",
+    "countryCode": "GE",
+    "latitude": 41.7536,
+    "longitude": 43.5217,
+    "altitudeM": 2700,
+    "skiableAreaKm2": 30,
+    "airports": [
+      { "iata": "TBS", "name": "Tbilisi International", "city": "Tbilisi", "distanceKm": 185, "driveTimeMinutes": 155, "primaryFor": true },
+      { "iata": "KUT", "name": "Kutaisi Airport", "city": "Kutaisi", "distanceKm": 140, "driveTimeMinutes": 130, "primaryFor": false }
+    ],
+    "hotelSearchCenter": { "latitude": 41.7536, "longitude": 43.5217, "radiusKm": 5 },
+    "rome2rioOriginName": "Bakuriani, Georgia"
+  },
+  {
+    "id": "mestia-georgia",
+    "name": "Mestia / Hatsvali",
+    "region": "eastern_europe",
+    "country": "Georgia",
+    "countryCode": "GE",
+    "latitude": 43.0386,
+    "longitude": 42.7200,
+    "altitudeM": 2347,
+    "skiableAreaKm2": 15,
+    "airports": [
+      { "iata": "KUT", "name": "Kutaisi Airport", "city": "Kutaisi", "distanceKm": 200, "driveTimeMinutes": 185, "primaryFor": true },
+      { "iata": "TBS", "name": "Tbilisi International", "city": "Tbilisi", "distanceKm": 430, "driveTimeMinutes": 390, "primaryFor": false }
+    ],
+    "hotelSearchCenter": { "latitude": 43.0386, "longitude": 42.7200, "radiusKm": 5 },
+    "rome2rioOriginName": "Mestia, Georgia"
   }
 ]
