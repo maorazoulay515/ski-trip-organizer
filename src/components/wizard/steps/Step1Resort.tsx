@@ -11,11 +11,10 @@ import type { SkiResort, SkiRegion } from '@/types/resort'
 const REGIONS: { value: SkiRegion | null; label: string; emoji: string }[] = [
   { value: null, label: 'All', emoji: '🌍' },
   { value: 'alps', label: 'Alps', emoji: '🏔' },
-  { value: 'north_america', label: 'N. America', emoji: '🌲' },
   { value: 'scandinavia', label: 'Scandinavia', emoji: '❄️' },
-  { value: 'japan', label: 'Japan', emoji: '🗻' },
-  { value: 'andes', label: 'Andes', emoji: '⛰' },
-  { value: 'other', label: 'Other', emoji: '🌐' },
+  { value: 'pyrenees', label: 'Pyrenees', emoji: '⛰' },
+  { value: 'eastern_europe', label: 'Eastern Europe', emoji: '🏕' },
+  { value: 'scotland', label: 'Scotland', emoji: '🏴󠁧󠁢󠁳󠁣󠁴󠁿' },
 ]
 
 interface Props {

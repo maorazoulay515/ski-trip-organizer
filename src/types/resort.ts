@@ -9,11 +9,10 @@ export interface NearbyAirport {
 
 export type SkiRegion =
   | 'alps'
-  | 'north_america'
   | 'scandinavia'
-  | 'japan'
-  | 'andes'
-  | 'other'
+  | 'pyrenees'
+  | 'eastern_europe'
+  | 'scotland'
 
 export interface SkiResort {
   id: string
