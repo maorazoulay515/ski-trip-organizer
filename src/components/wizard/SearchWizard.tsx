@@ -70,6 +70,7 @@ export function SearchWizard() {
             <Step1Resort
               selected={state.resort}
               onSelect={(resort) => dispatch({ type: 'SET_RESORT', resort })}
+              onClear={() => dispatch({ type: 'CLEAR_RESORT' })}
             />
           )}
           {state.currentStep === 2 && (

@@ -4,16 +4,17 @@ import { useState } from 'react'
 import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from '@/components/ui/command'
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover'
 import { Badge } from '@/components/ui/badge'
-import { ChevronDown, Mountain, MapPin } from 'lucide-react'
+import { ChevronDown, Mountain, MapPin, X } from 'lucide-react'
 import { useResortSearch } from '@/hooks/useResortSearch'
 import type { SkiResort } from '@/types/resort'
 
 interface Props {
   selected: SkiResort | null
   onSelect: (resort: SkiResort) => void
+  onClear?: () => void
 }
 
-export function Step1Resort({ selected, onSelect }: Props) {
+export function Step1Resort({ selected, onSelect, onClear }: Props) {
   const [open, setOpen] = useState(false)
   const { query, setQuery, results, loading } = useResortSearch()
 
@@ -38,15 +39,31 @@ export function Step1Resort({ selected, onSelect }: Props) {
           className="w-full flex items-center justify-between h-12 px-3 rounded-md border border-slate-200 bg-white text-left text-sm hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-blue-600"
         >
           {selected ? (
-            <span className="flex items-center gap-2">
-              <Mountain className="w-4 h-4 text-blue-600" />
-              <span className="font-medium">{selected.name}</span>
-              <span className="text-slate-400">{selected.country}</span>
+            <span className="flex items-center gap-2 min-w-0">
+              <Mountain className="w-4 h-4 text-blue-600 shrink-0" />
+              <span className="font-medium truncate">{selected.name}</span>
+              <span className="text-slate-400 shrink-0">{selected.country}</span>
             </span>
           ) : (
             <span className="text-slate-400">Search resorts...</span>
           )}
-          <ChevronDown className="w-4 h-4 text-slate-400 shrink-0" />
+          <span className="flex items-center gap-1 shrink-0 ml-2">
+            {selected && (
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation()
+                  onClear?.()
+                  setQuery('')
+                }}
+                className="p-0.5 rounded hover:bg-slate-200 text-slate-400 hover:text-slate-600 transition-colors"
+                aria-label="Clear selection"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            )}
+            <ChevronDown className="w-4 h-4 text-slate-400" />
+          </span>
         </PopoverTrigger>
         <PopoverContent className="w-[min(600px,90vw)] p-0" align="start">
           <Command shouldFilter={false}>

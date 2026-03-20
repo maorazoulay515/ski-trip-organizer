@@ -37,6 +37,7 @@ type WizardAction =
   | { type: 'NEXT_STEP' }
   | { type: 'PREV_STEP' }
   | { type: 'SET_RESORT'; resort: SkiResort }
+  | { type: 'CLEAR_RESORT' }
   | { type: 'SET_DATES'; checkIn: Date; checkOut: Date }
   | { type: 'SET_FLEXIBLE_DATES'; value: boolean }
   | { type: 'SET_TRAVELERS'; count: number }
@@ -84,6 +85,8 @@ function wizardReducer(state: WizardState, action: WizardAction): WizardState {
       return { ...state, currentStep: Math.max(1, state.currentStep - 1) as WizardState['currentStep'] }
     case 'SET_RESORT':
       return { ...state, resort: action.resort }
+    case 'CLEAR_RESORT':
+      return { ...state, resort: null }
     case 'SET_DATES':
       return { ...state, checkIn: action.checkIn, checkOut: action.checkOut }
     case 'SET_FLEXIBLE_DATES':
