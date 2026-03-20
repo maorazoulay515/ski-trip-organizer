@@ -11,5 +11,5 @@ export function GET(req: NextRequest) {
 
   const resorts = searchResorts(q, region ?? undefined)
 
-  return NextResponse.json({ resorts: resorts.slice(0, 20) })
+  return NextResponse.json({ resorts })
 }
